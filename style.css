@@ -21,6 +21,10 @@ html {
 
 body {
     font-family: 'Spartan', sans-serif;
+    background: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -25vw, +25vw;
 }
 
 section {
@@ -150,6 +154,12 @@ footer {
 }
 
 @media (min-width: 768px) {
+    body {
+        background: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -25vw, +25vw;
+    }
     .container {
         max-width: 740px;
         display: -webkit-box;
